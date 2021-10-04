@@ -1,23 +1,16 @@
 import logo from './logo.svg';
+import elmer from './shh-elmer-fudd.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hewwo?</h1>
       </header>
+      <img src={ elmer } alt="Elmer fudd making a gesture to be quiet" />
+        <p><span class="shush">Shhhhhh!</span> Be vewwy vewwy quiet. I want to hunt wabbits...🐰</p>
+        <p>Cahn you tell me wuht season it is?</p>
     </div>
   );
 }
