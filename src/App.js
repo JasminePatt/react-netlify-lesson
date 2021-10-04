@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import elmer from './shh-elmer-fudd.png';
 import './App.css';
 
